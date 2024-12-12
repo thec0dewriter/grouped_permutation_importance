@@ -6,7 +6,7 @@ from sklearn.metrics import check_scoring
 from sklearn.utils import Bunch
 from sklearn.utils import check_random_state
 from sklearn.utils import check_array
-from sklearn.utils.fixes import delayed
+from sklearn.utils.parallel import delayed
 from sklearn.inspection._permutation_importance import _weights_scorer
 from grouped_permutation_importance._adapted_permutation_importance import \
     _calculate_permutation_scores
